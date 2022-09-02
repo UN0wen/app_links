@@ -14,6 +14,8 @@ dependencies:
   app_links_web: ^1.0.0
   app_links_windows: ^1.0.0
   app_links_macos: ^1.0.0
+  app_links_linux:
+    path: ../app_links_linux
 
 dev_dependencies:
   flutter_test:
@@ -36,3 +38,5 @@ flutter:
         default_package: app_links_windows
       macos:
         default_package: app_links_macos
+      linux:
+        default_package: app_links_linux
