@@ -11,11 +11,6 @@ G_BEGIN_DECLS
 #define FLUTTER_PLUGIN_EXPORT
 #endif
 
-typedef struct _AppLinksLinuxPlugin AppLinksLinuxPlugin;
-typedef struct {
-  GObjectClass parent_class;
-} AppLinksLinuxPluginClass;
-
 FLUTTER_PLUGIN_EXPORT GType app_links_linux_plugin_get_type();
 
 FLUTTER_PLUGIN_EXPORT void app_links_linux_plugin_register_with_registrar(
